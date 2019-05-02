@@ -42,7 +42,7 @@ class DbRepository implements DataProvider
     /**
      * @return Weather[]
      */
-    private function selectAll(): array
+    protected function selectAll(): array
     {
         $result = [];
         $data = json_decode(

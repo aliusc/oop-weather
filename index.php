@@ -13,15 +13,27 @@ $request = Request::createFromGlobals();
 $loader = new FilesystemLoader('View', __DIR__ . '/src/Weather');
 $twig = new Environment($loader, ['cache' => __DIR__ . '/cache', 'debug' => true]);
 
-$controller = new StartPage();
-switch ($request->getRequestUri()) {
-    case '/week':
+$source = $request->query->get('source');
+$controller = new StartPage($source);
+
+//switch ($request->getRequestUri()) {
+//    case '/week':
+//        $renderInfo = $controller->getWeekWeather();
+//        break;
+//    case '/':
+//    default:
+//        $renderInfo = $controller->getTodayWeather();
+//    break;
+//}
+
+switch ($request->query->get('period')) {
+    case 'week':
         $renderInfo = $controller->getWeekWeather();
         break;
-    case '/':
+    case 'day':
     default:
         $renderInfo = $controller->getTodayWeather();
-    break;
+        break;
 }
 $renderInfo['context']['resources_dir'] = 'src/Weather/Resources';
 

@@ -75,5 +75,82 @@
     "high": "31",
     "low": "20",
     "text": "Sunny"
+  },
+  {
+    "date": "01 May 2019",
+    "day": "Sat",
+    "high": "37",
+    "low": "27",
+    "text": "Cloudy"
+  },
+  {
+    "date": "02 May 2019",
+    "day": "Sun",
+    "high": "39",
+    "low": "38",
+    "text": "Scattered Showers"
+  },
+  {
+    "date": "03 May 2019",
+    "day": "Mon",
+    "high": "39",
+    "low": "30",
+    "text": "Scattered Showers "
+  },
+  {
+    "date": "04 May 2019",
+    "day": "Tue",
+    "high": "31",
+    "low": "26",
+    "text": "Breezy"
+  },
+  {
+    "date": "05 May 2019",
+    "day": "Wed",
+    "high": "36",
+    "low": "27",
+    "text": "Partly Cloudy"
+  },
+  {
+    "date": "06 May 2019",
+    "day": "Thu",
+    "high": "26",
+    "low": "22",
+    "text": "Breezy"
+  },
+  {
+    "date": "07 May 2019",
+    "day": "Fri",
+    "high": "22",
+    "low": "16",
+    "text": "Mostly Cloudy "
+  },
+  {
+    "date": "08 May 2019",
+    "day": "Sat",
+    "high": "25",
+    "low": "18",
+    "text": "Mostly Cloudy"
+  },
+  {
+    "date": "09 May 2019",
+    "day": "Sun",
+    "high": "33",
+    "low": "29",
+    "text": "Mostly Cloudy"
+  },
+  {
+    "date": "10 May 2019",
+    "day": "Mon",
+    "high": "37",
+    "low": "24",
+    "text": " Cloudy"
+  },
+  {
+    "date": "11 May 2019",
+    "day": "Tue",
+    "high": "31",
+    "low": "20",
+    "text": "Sunny"
   }
 ]

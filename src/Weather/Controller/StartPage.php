@@ -7,11 +7,26 @@ use Weather\Model\NullWeather;
 
 class StartPage
 {
+    /** @var Manager */
+    private $manager;
+
+    public function __construct(string $manager = '')
+    {
+        $this->manager = new Manager($manager);
+    }
+
+    /**
+     * @return Manager
+     */
+    public function getManager(): Manager
+    {
+        return $this->manager;
+    }
+
     public function getTodayWeather(): array
     {
         try {
-            $service = new Manager();
-            $weather = $service->getTodayInfo();
+            $weather = $this->getManager()->getTodayInfo();
         } catch (\Exception $exp) {
             $weather = new NullWeather();
         }
@@ -22,8 +37,7 @@ class StartPage
     public function getWeekWeather(): array
     {
         try {
-            $service = new Manager();
-            $weathers = $service->getWeekInfo();
+            $weathers = $this->getManager()->getWeekInfo();
         } catch (\Exception $exp) {
             $weathers = [];
         }

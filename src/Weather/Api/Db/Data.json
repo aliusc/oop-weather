@@ -13,6 +13,12 @@
   {"date": "2019-05-02", "dayTemp": 24, "nightTemp": 15, "sky": 1},
   {"date": "2019-05-03", "dayTemp": 25, "nightTemp": 16, "sky": 2},
   {"date": "2019-05-04", "dayTemp": 26, "nightTemp": 17, "sky": 3},
-  {"date": "2019-05-05", "dayTemp": 27, "nightTemp": 18, "sky": 3}
+  {"date": "2019-05-05", "dayTemp": 27, "nightTemp": 18, "sky": 3},
+  {"date": "2019-05-06", "dayTemp": 24, "nightTemp": 14, "sky": 3},
+  {"date": "2019-05-07", "dayTemp": 20, "nightTemp": 15, "sky": 3},
+  {"date": "2019-05-08", "dayTemp": 22, "nightTemp": 12, "sky": 3},
+  {"date": "2019-05-09", "dayTemp": 23, "nightTemp": 14, "sky": 3},
+  {"date": "2019-05-10", "dayTemp": 22, "nightTemp": 15, "sky": 3},
+  {"date": "2019-05-11", "dayTemp": 25, "nightTemp": 16, "sky": 3}
 ]
 
