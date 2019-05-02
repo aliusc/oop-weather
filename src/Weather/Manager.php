@@ -27,6 +27,9 @@ class Manager
         elseif ($dataProvider=='json') {
             $this->transporter = new JsonRepository();
         }
+        else {
+            $this->transporter = new DbRepository();
+        }
     }
 
     public function getTodayInfo(): Weather
