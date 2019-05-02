@@ -1,18 +1,14 @@
-# oop-example
+# oop-example homework by Alius C.
 
-Run:
-composer install
+Links you may test app on your machine:
 
-Then you can open index.php
+- [?period=day&source=db](?period=day&source=db)
+- [?period=week&source=db](?period=week&source=db)
+- [?period=day&source=google](?period=day&source=google)
+- [?period=week&source=google](?period=week&source=google)
+- [?period=day&source=json](?period=day&source=json)
+- [?period=week&source=json](?period=week&source=json)
 
-
-**Help:**
-- https://www.php.net/manual/en/language.oop5.php
-- https://twig.symfony.com/doc/2.x/
-  - https://twig.symfony.com/doc/2.x/intro.html
-- https://symfony.com/doc/current/components/http_foundation.html
-  - https://symfony.com/doc/current/components/http_foundation.html#request
-  - https://symfony.com/doc/current/components/http_foundation.html#response
-- https://getcomposer.org/doc/
-  - https://getcomposer.org/download/
-  - https://getcomposer.org/doc/03-cli.md#install-i
+**Defaults**
+* Default for _period_ is 'day'
+* Default for _source_ is 'db'
